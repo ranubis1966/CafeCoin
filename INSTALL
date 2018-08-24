@@ -1,0 +1,9 @@
+Building Cafecoin
+
+See doc/readme-qt.rst for instructions on building Cafecoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Cafecoin.
+
+See doc/build-*.txt for instructions on building cafecoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Cafecoin.

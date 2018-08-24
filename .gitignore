@@ -1,0 +1,34 @@
+src/*.exe
+src/cafecoin
+src/cafecoind
+src/test_cafecoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.cafecoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+cafecoin-qt
+Cafecoin-Qt.app
+
+# Unit-tests
+Makefile.test
+cafecoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
